@@ -31,13 +31,13 @@
     background-color: #F47923;
     color: white;
 }
-.navbar-toggler-icon {
+/* .navbar-toggler-icon {
     width: 1em !important;
     height: 1em !important;
 }
 .navbar-toggler {
     padding:0px 8px 2px 8px !important;
-}
+} */
 .backtag{
     filter: blur(4px);
     height: 88px;

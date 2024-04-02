@@ -1,0 +1,205 @@
+.main{
+    background-color: rgba(0, 0, 0, 0.937);
+}
+.background{
+    background:linear-gradient(to right top, #F47923, #9D3CFF);
+    height: 80vh;
+    border-radius: 100px;
+}
+.backgroundd{
+    background:linear-gradient(to right top, #F47923, #9D3CFF);
+    height: 39vh;
+    border-radius: 100px;
+}
+.bg-warning{
+    background-color: #F47923 !important;
+    transition: 0.5s;
+}
+.bg-warning:hover{
+    transform: scale(1.1);
+}
+.text-warning{
+    color: #F47923 !important;
+}
+.btn-outline-warning{
+    border: #F47923 solid 2px !important;
+    background-color: none;
+    color:#F47923;
+    transform: 0.5s;
+}
+.btn-outline-warning:hover{
+    background-color: #F47923;
+    color: white;
+}
+.navbar-toggler-icon {
+    width: 1em !important;
+    height: 1em !important;
+}
+.navbar-toggler {
+    padding:0px 8px 2px 8px !important;
+}
+.backtag{
+    filter: blur(4px);
+    height: 88px;
+    top: 20%;
+    left: 8%;
+}
+.backtagg{
+    filter: blur(4px);
+    height: 80px;
+    top: 70%;
+    left: 45%;
+}
+.backtaag{
+    filter: blur(4px);
+    height: 80px;
+    top: 70%;
+}
+.smalliconl{
+    height: 50px;
+    width: 50px;
+    margin-left: 30px;
+}
+.smalliconr{
+    height: 50px;
+    width: 50px;
+    margin-right:30px;
+}
+.smalliccon{
+    height: 130px;
+    width: 130px;
+}
+.img-fluid {
+    position: relative;
+    animation: bounceAnimation 3s infinite;
+}
+@keyframes bounceAnimation {
+    0%, 100% {
+      transform: translateY(0); /* Initial and final position */
+    }
+    50% {
+      transform: translateY(-20px); /* Bouncing position - adjust as needed */
+    }
+  }
+
+/* =========================================================================================== */
+.journyhead{
+    background:linear-gradient( to right top,#9D3CFF 3.44%,#F47923 98.21%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.colorborder{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid transparent;
+    border-image-source: url(./assets/img/borderjourny/sna-journey-border.png);
+    border-image-slice: 16 18;
+    border-image-repeat: round;
+    border-image-width: 15px 15px 0px 15px;
+    padding: 12px;
+    gap: 12px;
+}
+.colorborderr{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid transparent;
+    border-image-source: url(./assets/img/borderjourny/sna-journey-border.png);
+    border-image-slice: 16 18;
+    border-image-repeat: round;
+    border-image-width: 0px 15px 15px 15px;
+    padding: 12px;
+    gap: 12px;
+}
+.jolydeco{
+    left: 96%;
+    width: 130px;
+    height: 17vh;
+    background: linear-gradient(90.07deg, #9D3CFF 3.44%, #F47923 98.21%);
+}
+.jolydecoo{
+    left: 88%;
+    width: 130px;
+    height: 17vh;
+    background: linear-gradient(90.07deg, #9D3CFF 3.44%, #F47923 98.21%);
+}
+.jolydecol{
+    width: 130px;
+    height: 17vh;
+    background: linear-gradient(90.07deg, #9D3CFF 3.44%, #F47923 98.21%);
+}
+.jolydecool{
+    left: 88%;
+    width: 130px;
+    height: 17vh;
+    background: linear-gradient(90.07deg, #9D3CFF 3.44%, #F47923 98.21%);
+}
+.dark{
+    background: #1C1A18;
+    height: 100%;
+    width: 100%;
+}
+/* ================================================================================================================== */
+.ybacktag{
+    filter: blur(4px);
+    height: 88px;
+    top: 10%;
+    left: 0%;
+}
+.ybacktagg{
+    filter: blur(4px);
+    height: 80px;
+    top: 70%;
+    left: 93%;
+}
+.ybacktaag{
+    filter: blur(4px);
+    height: 80px;
+    top: 75%;
+}
+.sessionlink{
+    height: 100vh;
+}
+/* ============================================================================================== */
+#owl-demo .owl-item{
+    margin-right: 110px !important;
+}
+
+#owl-demo1 .owl-item{
+    width: 326px !important;
+    margin:0px 8px 0px 3px!important;
+}
+/* ==================================================================================================== */
+.imgfeeback {
+    position: relative;
+    animation: bounceAnimation 3s infinite;
+}
+@keyframes bounceAnimation {
+    0%, 100% {
+      transform: translateY(0); /* Initial and final position */
+    }
+    50% {
+      transform: translateY(-20px); /* Bouncing position - adjust as needed */
+    }
+  }
+
+/*====================================================================================================== */
+.backgroundlabs{
+    background:linear-gradient(to right top, #F47923, #9D3CFF);
+}
+#exploreLabs .btn:hover{
+    background:linear-gradient(90.07deg, #F47923, #9D3CFF);
+    color: white;
+    transition: 1s;
+}
+/* ================================================================================================ */
+#footer li a{
+ color: white;
+}
+/* ======================================================================= */
+@media screen and (min-width:320px) and (max-width: 480px) {
+    #owl-demo .owl-item{
+        margin-right: 0px !important;
+    }
+
+}

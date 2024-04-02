@@ -3,12 +3,12 @@
 }
 .background{
     background:linear-gradient(to right top, #F47923, #9D3CFF);
-    height: 80vh;
+    /* height: 80vh; */
     border-radius: 100px;
 }
 .backgroundd{
     background:linear-gradient(to right top, #F47923, #9D3CFF);
-    height: 39vh;
+    /* height: 39vh; */
     border-radius: 100px;
 }
 .bg-warning{
@@ -200,6 +200,25 @@
 @media screen and (min-width:320px) and (max-width: 480px) {
     #owl-demo .owl-item{
         margin-right: 0px !important;
+    }
+    #owl-demo .item{
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+}
+@media screen and (min-width:393px) and (max-width:784px){
+    #owl-demo1 .owl-item{
+        width: 326px !important;
+        margin:0px 19px 0px 24px!important;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width: 784px) {
+    .backgroundd {
+        background: linear-gradient(to right top, #F47923, #9D3CFF);
+        height: 32vh;
+        border-radius: 100px;
     }
 
 }

@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ninja</title>
+    <link rel="icon" type="image/png" href="./assets/img/logo/Screenshot (142).png">
     <link href="./assets/bootstrap-5.2.3-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css" integrity="sha512-X/RSQYxFb/tvuz6aNRTfKXDnQzmnzoawgEQ4X8nZNftzs8KFFH23p/BA6D2k0QCM4R0sY1DEy9MIY9b3fwi+bg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -14,16 +16,16 @@
         <section id="header" class="header sticky-top">
             <nav class="navbar navbar-dark navbar-expand-sm bg-dark py-3 shadow p-3">
                 <div class="container px-0">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation" aria-controls="collapseWidthExample">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
                   <a class="navbar-brand me-lg-3 me-0" href="#">
                     <img src="./assets/img/logo/logo-text.svg" height="100%" width="150px" class=" d-lg-block d-none pe-2" alt="">
-                    <img src="./assets/img/logo/logo-text.svg" height="100%" width="130px" class=" d-lg-none d-block" alt="">
+                    <img src="./assets/img/logo/logo-text.svg" height="100%" width="130px" class=" d-lg-none d-block pe-2" alt="">
                 </a>
                 <a href="./courses.html" class="text-decoration-none">
-                  <button class="btn bg-warning rounded-pill text-white d-lg-block d-none px-5 py-2" type="submit">Courses</button>
-                  <button class="btn bg-warning rounded d-lg-none d-block fs-6 py-1" type="submit">Courses</button>
+                  <button class="btn bg-warning rounded-pill text-white d-md-block d-none px-5 py-2" type="submit">Courses</button>
+                  <button class="btn bg-warning rounded d-md-none d-block fs-6 py-1" type="submit">Courses</button>
                  </a>
                   <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-lg-3 gap-0">
@@ -53,11 +55,11 @@
                 <img class="backtaag position-absolute top-75 start-0 translate-middle  d-lg-block d-none" src="./assets/img/content/html-tag.png" alt="">
                 <div class="row">
                     <div class="col-lg-6 col-12 content text-light d-flex flex-column justify-content-center align-items-lg-start align-items-center order-2 order-lg-1">
-                        <h1 class="fw-bold">Master</h1>
-                        <h1 class="bg-warning d-inline-block text-dark fw-bold">THE ART OF TECH</h1>
-                        <h1 class="fw-bold">Be A <span class="bg-warning d-inline-block text-dark">Selfmade Ninja</span></h1>
+                        <h1 class="fw-bold" data-aos="fade-right">Master</h1>
+                        <h1 class="bg-warning d-inline-block text-dark fw-bold" data-aos="fade-left">THE ART OF TECH</h1>
+                        <h1 class="fw-bold"  data-aos="fade-up">Be A <span class="bg-warning d-inline-block text-dark"  data-aos="fade-right">Selfmade Ninja</span></h1>
                        <a href="./courses.html">
-                        <button class="btn btn-outline-warning rounded-pill px-5 py-2" type="submit">Explore Courses</button>
+                        <button class="btn btn-outline-warning rounded-pill px-5 py-2"  data-aos="fade-down" type="submit">Explore Courses</button>
                        </a>
                     </div>
 
@@ -65,7 +67,7 @@
                     <div class="col-lg-6 col-12 ninjaimg border-3 border-dark order-1 order-lg-2">
 
                         <div class="d-md-block d-none position-relative">
-                            <div class="background my-5 mx-4 w-80 d-flex justify-content-center border-3 border-dark overflow-hidden">
+                            <div class="background my-5 mx-4 w-80 d-flex justify-content-center border-3 border-dark overflow-hidden"  data-aos="zoom-in">
                                     <img src="./assets/img/content/SNA-hero.png" height="556vh" alt="">
                             </div>
                             <img class="position-absolute top-0 start-0 smalliccon img-fluid" src="./assets/img/content/iot.svg" alt="">
@@ -96,17 +98,17 @@
             <div class="container py-lg-0 py-5 px-3">
                 <div class="row">
                     <h1 class="fs-2 text-white pb-3">Don't just <span class="text-warning">learn, Do</span></h1>
-                    <div class="col-lg-4 col-12 pb-lg-0 pb-3">
+                    <div class="col-lg-4 col-12 pb-lg-0 pb-3"  data-aos="fade-down">
                         <i class="fa-solid fa-people-group text-warning pb-4 fs-5"></i>
                         <h5 class="text-white fs-6">Dive in and get your hands dirty</h5>
                         <p class="text-secondary fs-6 lh-sm text-justify">Learning tech and programming is all about experience, and that's what we provide! Our curriculum covers everything from programming languages to the Internet of Things. You'll have the opportunity to practice what you learn in our own VPN and Cloud labs, gaining real-world experience in the technologies you're learning.</p>
                     </div>
-                    <div class="col-lg-4 col-12 pb-lg-0 pb-3">
+                    <div class="col-lg-4 col-12 pb-lg-0 pb-3"  data-aos="fade-down">
                         <i class="fa-solid fa-flask text-warning pb-4 fs-5"></i>
                         <h3 class="text-white fs-6">Connect with your tribe of Selfmade Ninjas</h3>
                         <p class="text-secondary fs-6 lh-sm text-justify">As you progress through our curriculum, you'll become part of our Selfmade Ninja community. You'll have the opportunity to connect with like-minded learners who are just as passionate about tech as you are. Share knowledge, collaborate on projects, and support each other as you all work towards becoming tech professionals</p>
                     </div>
-                    <div class="col-lg-4 col-12 pb-lg-0 pb-3">
+                    <div class="col-lg-4 col-12 pb-lg-0 pb-3"  data-aos="fade-down">
                         <i class="fa-solid fa-book-open text-warning pb-4 fs-5"></i>
                         <h3 class="text-white fs-6">Unleash your inner Ninja</h3>
                         <p class="text-secondary fs-6 lh-sm text-justify">You've completed our curriculum, gained the necessary skills and knowledge, and connected with your tribe of Selfmade Ninjas. You're now ready to take on the tech industry as a Selfmade Ninja! With the confidence, community, and experience you've gained through our academy, you'll be well-equipped to pursue a career in technology and programming. So go ahead, unleash your inner Ninja and take the first step towards a bright future!</p>
@@ -137,7 +139,7 @@
                 <div class="row">
                         <h2 class="journyhead text-center">Your Journey To</h2>
                         <h2 class="journyhead text-center pb-lg-5 pb-3">Becoming A Tech Pro</h2>
-                      <div class="col-md-3 col-12 d-lg-block d-none">
+                      <div class="col-md-3 col-12 d-lg-block d-none"  data-aos="fade-down">
                         <div class="d-flex justify-content-center pb-3">
                             <img src="./assets/img/j/bulb-svg.svg" height="50vh" alt="">
                         </div>
@@ -147,7 +149,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-3 col-12 d-lg-block d-none">
+                    <div class="col-md-3 col-12 d-lg-block d-none" data-aos="fade-up">
                         <div class="colorborderr mt-5 mb-3">
                             <p class="text-white fs-6 lh-sm">Next, you'll dive into our curriculum and get hands-on experience with the latest technologies using our own VPN and Cloud labs. You'll have the opportunity to practice what you learn in real-world scenarios and master the skills you need to succeed in the tech industry.</p>
                             <h4 class="journyhead text-center">02 Learn, Practice, and master the tech</h4>
@@ -157,7 +159,7 @@
                         </div>
                     </div>
                     
-                    <div class="col-md-3 col-12 d-lg-block d-none">
+                    <div class="col-md-3 col-12 d-lg-block d-none" data-aos="fade-down">
                         <div class="d-flex justify-content-center pb-3">
                             <img src="./assets/img/j/git-svg.svg" height="50vh" alt="">
                         </div>
@@ -167,7 +169,7 @@
                         </div>  
                     </div>
 
-                    <div class="col-md-3 col-12 d-lg-block d-none">
+                    <div class="col-md-3 col-12 d-lg-block d-none"data-aos="fade-up">
                         <div class="colorborderr mt-5 mb-3">
                             <p class="text-white fs-6 lh-sm">Finally, armed with the confidence, community, and experience you've gained through our academy, you'll be ready to take on the tech industry as a Selfmade Ninja. You'll have the skills, knowledge, and network to pursue a successful career in technology and programming and achieve your goals!</p>
                             <h4 class="journyhead text-center">04 Become a Selfmade Ninja and succeed</h4>
@@ -449,7 +451,7 @@
           <div class="container position-relative">
             <img src="./assets/img/studfeed/Feedback.png" class="bg-dark position-absolute px-4 py-5 my-5 d-lg-block d-none" style="height: 71.2vh;left: -108px;" alt="">
             <div class="row">
-              <div class="col-lg-7 col-12 bg-dark text-white p-lg-5 my-lg-5 m-0 order-lg-1 order-2" style="height: 71.2vh;">
+              <div class="col-lg-7 col-12 bg-dark text-white p-lg-5 my-lg-5 m-0 order-lg-1 order-2">
                 <h2 class="pb-4 pt-lg-5 pt-4">Student <span class="text-warning pb-5">Feedback</span></h2>
 
                 <!-- <div>
@@ -687,7 +689,7 @@
           " class="fa-brands fa-whatsapp bg-success text-light fs-6"></i>
         </a>
 
-        <a href="https://wa.me/916369618359" text="Hi This is Your {Name} and what i am currently doing{.....} now" class="back-to-top d-flex align-items-center justify-content-center fixed-bottom active d-lg-none d-block"><i style="padding: 18px;
+        <a href="https://wa.me/916369618359 text=Hi This is Your {Name} and what i am currently doing{.....} now" class="back-to-top d-flex align-items-center justify-content-center fixed-bottom active d-lg-none d-block"><i style="padding: 18px;
           position: absolute; border-radius: 60px; height: 50px; width: 50px; left: 300px; margin-bottom: 90px; 
           " class="fa-brands fa-whatsapp bg-success text-light fs-6"></i>
         </a>
@@ -731,7 +733,12 @@ $(document).ready(function() {
 });
       </script>
 
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+  duration: 1200,
+})
+</script>
    
 
 </body>
